@@ -66,3 +66,9 @@ extraSecretEnvironmentVars: []
   # - envName: ENV_NAME
   #   secretName: name
   #   secretKey: key
+
+extraVolumes: []
+  # - type: secret (or "configMap")
+  #   name: ca-crt
+  #   mountPath: /etc/crt/
+  #   readOnly: true
