@@ -22,7 +22,7 @@ This page provides instructions for using HELM charts for configuring and deploy
 
 ### Container registry credentials
 
-[Link](../docs/imagepullsecret.md)
+[Link](../../docs/imagepullsecret.md)
 
 ### Clone the GitHub repository with the charts
 
@@ -125,7 +125,7 @@ Optionally, you can provide these certificates in base64 encoded format as flags
    ```bash
    kubectl create namespace aqua
    ```
-   Next, copy the values.yaml content from  [Values.yaml](./values.yaml) and make the respective changes then run the following command:
+   Next, copy the values.yaml content from  [Values.yaml](values.yaml) and make the respective changes then run the following command:
    
    ```shell
    helm upgrade --install --namespace aqua kube-enforcer aqua-helm/kube-enforcer --values values.yaml --version <>

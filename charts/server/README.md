@@ -18,7 +18,7 @@ These are Helm charts for installation and maintenance of Aqua Container Securit
 
 ### Container Registry Credentials
 
-[Link](../docs/imagepullsecret.md)
+[Link](../../docs/imagepullsecret.md)
 
 ### PostgreSQL database
 

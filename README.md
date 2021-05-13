@@ -29,10 +29,10 @@ This repository includes the following charts; they can be deployed separately:
 
 | Chart | Description |
 |-|-|
-| [Server](server/) | Deploys the Console, Database, and Gateway components; optionally deploys the Scanner and Envoy components |
-| [Enforcer](enforcer/) | Deploys the Aqua Enforcer daemonset |
-| [Scanner](scanner/)  | Deploys the Aqua Scanner deployment |
-| [KubeEnforcer](kube-enforcer/)| Deploys the Aqua KubeEnforcer |
+| [Server](charts/server/) | Deploys the Console, Database, and Gateway components; optionally deploys the Scanner and Envoy components |
+| [Enforcer](charts/enforcer/) | Deploys the Aqua Enforcer daemonset |
+| [Scanner](charts/scanner/)  | Deploys the Aqua Scanner deployment |
+| [KubeEnforcer](charts/kube-enforcer/)| Deploys the Aqua KubeEnforcer |
 | [QuickStart](aqua-quickstart)| Not for production use (see below). Deploys the Console, Database, Gateway, and KubeEnforcer components |
 
 # Deployment instructions
@@ -85,11 +85,11 @@ aqua-helm/kube-enforcer   6.0.0               6.0                 A Helm chart f
 ```bash
 $ kubectl create namespace aqua
 ```
-2. Deploy the [**Server**](server/) chart.
-3. Deploy the [**Enforcer**](enforcer/) chart.
-4. Deploy the [**KubeEnforcer**](kube-enforcer/) chart.
-5. (Optional) Deploy the [**Scanner**](scanner/) chart.
-6. (For multi-cluster) Deploy the [**Gateway**](gateway/) chart.
+2. Deploy the [**Server**](charts/server/) chart.
+3. Deploy the [**Enforcer**](charts/enforcer/) chart.
+4. Deploy the [**KubeEnforcer**](charts/kube-enforcer/) chart.
+5. (Optional) Deploy the [**Scanner**](charts/scanner/) chart.
+6. (For multi-cluster) Deploy the [**Gateway**](charts/gateway/) chart.
 
 ### Troubleshooting
 

@@ -20,7 +20,7 @@ These are Helm charts for the deployment and maintenance of the Aqua Tenant Mana
 
 ### Container registry credentials
 
-See [Container registry credentials](../docs/imagepullsecret.md).
+See [Container registry credentials](../../docs/imagepullsecret.md).
 
 ### PostgreSQL database
 

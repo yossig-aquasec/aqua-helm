@@ -19,7 +19,7 @@ These are Helm charts for installation and maintenance of Aqua Container Securit
 
 ### Container Registry Credentials
 
-[Link](../docs/imagepullsecret.md)
+[Link](../../docs/imagepullsecret.md)
 
 ## Installing the Chart
 Follow the steps in this section for production grade deployments. You can either clone aqua-helm git repo or you can add our helm private repository ([https://helm.aquasec.com](https://helm.aquasec.com))

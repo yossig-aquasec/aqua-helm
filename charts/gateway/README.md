@@ -15,7 +15,7 @@ Helm chart for installation and maintenance of Aqua Container Security Platform 
 
 ### Container Registry Credentials
 
-[Link](../docs/imagepullsecret.md)
+[Link](../../docs/imagepullsecret.md)
 
 
 ## Installing the Chart
